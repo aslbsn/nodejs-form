@@ -1,0 +1,150 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgba(248,250,215,1) 0%, rgba(250,218,215,1) 100%);
+
+}
+
+header {
+    
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:black;
+    z-index: 1;   
+
+}
+
+#anasayfa{
+ margin-top: 140px;
+width:100%;
+background: radial-gradient(circle, rgba(248,250,215,1) 0%, rgba(250,218,215,1) 100%);
+
+}
+
+#anasayfa>img{
+ 
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#giris{
+  
+background-color: antiquewhite;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+   position: absolute;
+   bottom: 180px;
+   right: 430px;
+  
+  
+
+}
+
+
+
+#giris2{
+  
+    background-color: antiquewhite;
+        width: 500px;
+        height: 380px;
+        border-radius: 10px;
+       position: absolute;
+       bottom: 140px;
+       right: 430px;
+      
+      
+    
+    }
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+  height: 80px;
+  padding: 15px;
+  background-color: #000;
+  color: white !important;
+    
+}
+
+li>a {
+    color: white !important;
+    font-size: 20px;
+}
+
+i {
+    font-size: 60px;
+}
+
+
+
+
+#basvuru>div>input, select {
+    border-radius: 5px ;
+    border-color: lightpink;
+
+       
+}
+
+#basvuru2>div>input{
+    border-radius: 5px ;
+    border-color: lightpink;
+    margin-bottom:4px;
+    
+}
+
+#basvurudivi {
+    background-color: #fadad7
+}
+
+
+#renk{
+    background-color: #f8fad7;
+}
+
+
+#girisbox{
+    width:350px;
+    height: 350px !important;
+    border: 2px solid black !important;
+    background-color: #fadad7 !important;
+    text-align: center;
+    margin-top: 100px;
+}
+#girisbuton {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+#girisbuton2{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+
+}
+
+
+#sidebar{
+
+    height:100vh;
+}
+
+#basvuru{
+    margin-top: 40px;
+}
